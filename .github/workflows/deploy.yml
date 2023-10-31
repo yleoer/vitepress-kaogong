@@ -34,7 +34,7 @@ jobs:
           npm run docs:build # or pnpm docs:build / yarn docs:build / bun run docs:build
         env:
           CI: true
-      - uses: manyuanrong/setup-ossutil@2.0
+      - uses: manyuanrong/setup-ossutil@v2.0
         with:
           endpoint: "oss-cn-guangzhou.aliyuncs.com"
           access-key-id: ${{ secrets.ACCESS_KEY_ID }}
