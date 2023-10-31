@@ -41,6 +41,6 @@ jobs:
           access-key-secret: ${{ secrets.ACCESS_KEY_SECRET }}
       - name: Deploy
         run: |
-          ossutil cp -rf docs/.vitepress/dist oss://hexo-blog-yleoer/
+          ossutil cp -rf docs/.vitepress/dist oss://vitepess-gongkao-yleoer/
         env:
           CI: true
