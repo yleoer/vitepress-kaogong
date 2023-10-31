@@ -8,7 +8,7 @@ export default defineConfig({
   description: '我的公考之路',
 
   lastUpdated: true,
-  cleanUrls: true,
+  // cleanUrls: true,
 
   markdown: {
     math: true,
