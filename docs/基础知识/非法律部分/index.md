@@ -1,8 +1,8 @@
 ---
 next: false
+aside: false
+editLink: false
+lastUpdated: false
 ---
 
 # 基础知识 - 非法律部分
-
-- [中国古代史](/基础知识/非法律部分/中国古代史)
-- [中国近代史](/基础知识/非法律部分/中国近代史)
