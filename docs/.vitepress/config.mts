@@ -59,6 +59,7 @@ export default defineConfig({
 function nav(): DefaultTheme.NavItem[] {
   return [
     { text: '首页', link: '/' },
+    { text: '行测', link: '/行测/'},
     {
       text: '基础知识',
       items: [
@@ -71,10 +72,15 @@ function nav(): DefaultTheme.NavItem[] {
 
 function sidebar(): DefaultTheme.SidebarMulti {
   return {
+    '/行测': {
+      base: '/行测',
+      items: [
+        { text: '数量关系', link: '/数量关系' }
+      ]
+    },
     '/基础知识/非法律部分/': {
       base: '/基础知识/非法律部分',
       items: [
-        { text: '目录', link: '/' },
         { text: '中国古代史', link: '/中国古代史' },
         { text: '中国近代史', link: '/中国近代史' },
         { text: '中外文化', link: '/中外文化' },
