@@ -77,6 +77,7 @@ function sidebar(): DefaultTheme.SidebarMulti {
         { text: '目录', link: '/' },
         { text: '中国古代史', link: '/中国古代史' },
         { text: '中国近代史', link: '/中国近代史' },
+        { text: '中外文化', link: '/中外文化' },
         { text: '马克思主义哲学', link: '/马克思主义哲学' }
       ]
     }
