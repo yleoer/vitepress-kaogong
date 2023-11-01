@@ -47,6 +47,10 @@ export default defineConfig({
       next: '下一页'
     },
 
+    lastUpdated: {
+      text: '上次更新'
+    },
+
     sidebarMenuLabel: 'Menu',
     returnToTopLabel: 'Top'
   }
