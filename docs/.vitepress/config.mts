@@ -24,7 +24,11 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: 'https://river.yxuefeng.com/notebook/favicon.png',
-    
+    outline: {
+      level: [2, 3],
+      label: '目录'
+    },
+
     nav: nav(),
     sidebar: sidebar(),
 
@@ -37,6 +41,14 @@ export default defineConfig({
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2023-present yleoer'
     },
+
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
+
+    sidebarMenuLabel: 'Menu',
+    returnToTopLabel: 'Top'
   }
 })
 
@@ -60,7 +72,8 @@ function sidebar(): DefaultTheme.SidebarMulti {
       items: [
         { text: '目录', link: '/' },
         { text: '中国古代史', link: '/中国古代史' },
-        { text: '中国近代史', link: '/中国近代史' }
+        { text: '中国近代史', link: '/中国近代史' },
+        { text: '马克思主义哲学', link: '/马克思主义哲学' }
       ]
     }
   }
