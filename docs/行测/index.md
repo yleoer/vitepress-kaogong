@@ -2,7 +2,7 @@
 next: false
 aside: false
 editLink: false
-lastUpdated: falsee
+lastUpdated: false
 ---
 
 # 行测
