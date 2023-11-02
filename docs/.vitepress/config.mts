@@ -81,10 +81,20 @@ function sidebar(): DefaultTheme.SidebarMulti {
     '/基础知识/非法律部分/': {
       base: '/基础知识/非法律部分',
       items: [
-        { text: '中国古代史', link: '/中国古代史' },
-        { text: '中国近代史', link: '/中国近代史' },
-        { text: '中外文化', link: '/中外文化' },
-        { text: '马克思主义哲学', link: '/马克思主义哲学' }
+        {
+          text: '历史文化',
+          items: [
+            { text: '中国古代史', link: '/历史文化/中国古代史' },
+            { text: '中国近代史', link: '/历史文化/中国近代史' },
+            { text: '中外文化', link: '/历史文化/中外文化' },
+          ]
+        },
+        {
+          text: '政治经济',
+          items: [
+            { text: '马克思主义哲学', link: '/政治经济/马克思主义哲学' },
+          ]
+        }
       ]
     }
   }
