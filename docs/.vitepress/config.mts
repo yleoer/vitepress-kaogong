@@ -93,6 +93,8 @@ function sidebar(): DefaultTheme.SidebarMulti {
           text: '政治经济',
           items: [
             { text: '马克思主义哲学', link: '/政治经济/马克思主义哲学' },
+            { text: '毛泽东思想', link: '/政治经济/毛泽东思想' },
+            { text: '中国特色社会主义理论体系', link: '/政治经济/中国特色社会主义理论体系' },
           ]
         }
       ]
